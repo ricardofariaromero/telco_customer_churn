@@ -1,2 +1,2 @@
 # telco_customer_churn
-A Telecommunications customer churn
+A Telecommunications company customer churn
