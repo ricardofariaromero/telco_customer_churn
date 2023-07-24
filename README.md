@@ -59,9 +59,11 @@ The following libraries were used during this project:
 First we tried to implement a simple Random Forest Classifier, with the following results:
 
 Confusion Matrix
+
 ![alt text](https://github.com/ricardofariaromero/telco_customer_churn/blob/main/images/matrix_not.png)
 
 ROC
+
 ![alt text](https://github.com/ricardofariaromero/telco_customer_churn/blob/main/images/roc_not.png)
 
 We compared these results with other algorithms such as KNN, Logistic Regression and XGBoost, not getting better results. It was then implemented hyperparameters and cross validaton on RFC but also, increasing the class with less ocurrence by using a RandomOverSampler. We got the following hyperparameters values:
@@ -82,9 +84,11 @@ And the following metrics:
     - AUC for our classifier is: 0.9653181973230908
 
 Confusion Matrix
+
 ![alt text](https://github.com/ricardofariaromero/telco_customer_churn/blob/main/images/confusion_matrix.png)
 
 ROC
+
 ![alt text](https://github.com/ricardofariaromero/telco_customer_churn/blob/main/images/roc.png)
         
 ## Credits
